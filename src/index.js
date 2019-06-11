@@ -71,7 +71,10 @@ class Board extends React.Component {
 
         return (
             <div>
-                <div className="status">{status}</div>
+                <div className="main-row">
+                    <div className="status">{status}</div>
+                    <a className="reset-btn" href="">Restart</a>
+                </div>
                 <div className="main-row">
                     <div className="board-0">
                         <div className="board-row">

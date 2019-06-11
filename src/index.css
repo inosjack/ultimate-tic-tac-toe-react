@@ -3,7 +3,9 @@ body {
     margin: 20px;
   }
 
-
+.reset-btn {
+  margin-left: auto;
+}
 ol, ul {
     padding-left: 30px;
   }
